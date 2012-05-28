@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Body	snake.h	/^struct Body{$/;"	s
+CC	Makefile	/^CC	=	$(CROSS_COMPILE)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS	=	-pipe -Wall -W -O3 -DNO_DEBUG$/;"	m
+CHANGE1_2	snakeWidget.h	28;"	d
+CHANGE2_1	snakeWidget.h	27;"	d
+CXX	Makefile	/^CXX	=	$(CROSS_COMPILE)g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS=	-pipe -DQWS -fno-exceptions -fno-rtti -Wall -W -O3 -DNO_DEBUG$/;"	m
+DIST	Makefile	/^DIST	=	$/;"	m
+DOWN	snake.h	/^		enum director{UP,DOWN,LEFT,RIGHT}direct;\/\/蛇的移动方向$/;"	e	enum:snake::director
+FOOD	snake.h	20;"	d
+GZIP	Makefile	/^GZIP	=	gzip -9f$/;"	m
+HEADERS	Makefile	/^HEADERS =	snake.h \\$/;"	m
+HEIGHT	snake.h	23;"	d
+INCPATH	Makefile	/^INCPATH	=	-I$(QTDIR)\/include -I$(QTDIR)\/extern3rd\/include$/;"	m
+INTERFACES	Makefile	/^INTERFACES =	$/;"	m
+INTERFACE_DECL_PATH	Makefile	/^INTERFACE_DECL_PATH = .$/;"	m
+LEFT	snake.h	/^		enum director{UP,DOWN,LEFT,RIGHT}direct;\/\/蛇的移动方向$/;"	e	enum:snake::director
+LFLAGS	Makefile	/^LFLAGS	=	-Wl,-rpath $(QTDIR)\/lib -Wl,-rpath $(QTDIR)\/target\/lib$/;"	m
+LIBS	Makefile	/^LIBS	=	$(SUBLIBS) -L$(QTDIR)\/lib -L$(QTDIR)\/extern3rd\/lib -lm -lqte-mt -lezxappbase -lezxam $(LIBLINK)$/;"	m
+LINK	Makefile	/^LINK	=	$(CROSS_COMPILE)gcc$/;"	m
+MAP	snake.h	/^		int MAP[HEIGHT+2][WIDTH+2];\/\/地图及蛇体数据:-2为空 -1为墙 0为food 1及以后为Body各段编号 四周加了一圈虚拟的墙$/;"	m	class:snake
+MOC	Makefile	/^MOC	=	$(QTDIR)\/bin\/moc$/;"	m
+NOTHING	snake.h	19;"	d
+OBJECTS	Makefile	/^OBJECTS =	main.o \\$/;"	m
+OBJMOC	Makefile	/^OBJMOC	=	moc_snakeWidget.o$/;"	m
+Q_MOC_OUTPUT_REVISION	moc_snakeWidget.cpp	11;"	d	file:
+RIGHT	snake.h	/^		enum director{UP,DOWN,LEFT,RIGHT}direct;\/\/蛇的移动方向$/;"	e	enum:snake::director
+SNAKEWIDGET_H_	snakeWidget.h	9;"	d
+SNAKE_2	snakeWidget.h	25;"	d
+SNAKE_H_	snake.h	9;"	d
+SOURCES	Makefile	/^SOURCES =	main.cpp \\$/;"	m
+SRCMOC	Makefile	/^SRCMOC	=	moc_snakeWidget.cpp$/;"	m
+TAR	Makefile	/^TAR	=	tar -cf$/;"	m
+TARGET	Makefile	/^TARGET	=	snake$/;"	m
+TIME	snakeWidget.h	23;"	d
+UIC	Makefile	/^UIC	=	$(QTDIR)\/bin\/uic$/;"	m
+UICDECLS	Makefile	/^UICDECLS =	$/;"	m
+UICIMPLS	Makefile	/^UICIMPLS =	$/;"	m
+UP	snake.h	/^		enum director{UP,DOWN,LEFT,RIGHT}direct;\/\/蛇的移动方向$/;"	e	enum:snake::director
+WALL	snake.h	18;"	d
+WIDGET_H	snakeWidget.h	22;"	d
+WIDGET_W	snakeWidget.h	21;"	d
+WIDTH	snake.h	22;"	d
+calcFood	snakeWidget.cpp	/^void snakeWidget::calcFood(int flag)$/;"	f	class:snakeWidget
+className	moc_snakeWidget.cpp	/^const char *snakeWidget::className() const$/;"	f	class:snakeWidget
+clearFood	snake.cpp	/^void snake::clearFood()$/;"	f	class:snake
+coordinate	snake.h	/^struct coordinate{$/;"	s
+cord	snake.h	/^	coordinate cord;$/;"	m	struct:Body
+createBody	snake.cpp	/^void snake::createBody(int x,int y)$/;"	f	class:snake
+createFood	snake.cpp	/^bool snake::createFood()$/;"	f	class:snake
+direct	snake.h	/^		enum director{UP,DOWN,LEFT,RIGHT}direct;\/\/蛇的移动方向$/;"	m	class:snake	typeref:enum:snake::director
+director	snake.h	/^		enum director{UP,DOWN,LEFT,RIGHT}direct;\/\/蛇的移动方向$/;"	g	class:snake
+freshScreen	snakeWidget.cpp	/^void snakeWidget::freshScreen()$/;"	f	class:snakeWidget
+gameOver	snake.h	/^		bool gameOver;\/\/游戏结束标志$/;"	m	class:snake
+gameReset	snake.cpp	/^void snake::gameReset()$/;"	f	class:snake
+getFood	snake.cpp	/^void snake::getFood()$/;"	f	class:snake
+gotoXY	snake.cpp	/^void snake::gotoXY(int x,int y)\/\/移动函数，每次只一步！！$/;"	f	class:snake
+head	snake.h	/^		coordinate head,trail;\/\/头、尾的坐标值$/;"	m	class:snake
+height_map	snake.h	/^		int width_map,height_map;\/\/点阵的长宽数$/;"	m	class:snake
+height_map	snakeWidget.h	/^		int height_map;\/\/游戏点阵宽$/;"	m	class:snakeWidget
+initMetaObject	moc_snakeWidget.cpp	/^void snakeWidget::initMetaObject()$/;"	f	class:snakeWidget
+initial	snakeWidget.cpp	/^void snakeWidget::initial()$/;"	f	class:snakeWidget
+keyPressEvent	snakeWidget.cpp	/^void snakeWidget::keyPressEvent(QKeyEvent *e)$/;"	f	class:snakeWidget
+lab	snakeWidget.h	/^		QLabel *lab;\/\/用以显示游戏图片的部件$/;"	m	class:snakeWidget
+length	snake.h	/^		int length,ori_x,ori_y;\/\/蛇的长度，及蛇头的默认坐标$/;"	m	class:snake
+main	main.cpp	/^int main(int argc ,char *argv[])$/;"	f
+metaObj	moc_snakeWidget.cpp	/^QMetaObject *snakeWidget::metaObj = 0;$/;"	m	class:snakeWidget	file:
+moveDown	snake.cpp	/^int snake::moveDown()$/;"	f	class:snake
+moveLeft	snake.cpp	/^int snake::moveLeft()$/;"	f	class:snake
+moveRight	snake.cpp	/^int snake::moveRight()$/;"	f	class:snake
+moveStep	snake.cpp	/^void snake::moveStep()$/;"	f	class:snake
+moveUp	snake.cpp	/^int snake::moveUp()$/;"	f	class:snake
+mysnake	snakeWidget.h	/^		snake *mysnake;\/\/蛇1实例$/;"	m	class:snakeWidget
+mysnake2	snakeWidget.h	/^		snake *mysnake2;\/\/蛇2实例$/;"	m	class:snakeWidget
+next	snake.h	/^	struct Body *next;$/;"	m	struct:Body	typeref:struct:Body::Body
+ori_x	snake.h	/^		int length,ori_x,ori_y;\/\/蛇的长度，及蛇头的默认坐标$/;"	m	class:snake
+ori_y	snake.h	/^		int length,ori_x,ori_y;\/\/蛇的长度，及蛇头的默认坐标$/;"	m	class:snake
+pix	snakeWidget.h	/^		QPixmap pix;\/\/游戏图片的暂存$/;"	m	class:snakeWidget
+resetFood	snake.cpp	/^void snake::resetFood()$/;"	f	class:snake
+score	snake.h	/^		int score;\/\/游戏得分$/;"	m	class:snake
+setFood	snake.cpp	/^bool snake::setFood(int x,int y)$/;"	f	class:snake
+snake	snake.cpp	/^snake::snake(int x,int y)$/;"	f	class:snake
+snake	snake.h	/^class snake$/;"	c
+snakeFood	snake.h	/^		coordinate snakeFood;\/\/食物的坐标值$/;"	m	class:snake
+snakeWidget	snakeWidget.cpp	/^snakeWidget::snakeWidget(QWidget *parent):QWidget(parent)$/;"	f	class:snakeWidget
+snakeWidget	snakeWidget.h	/^class snakeWidget : public QWidget$/;"	c
+snakeWidget_metaObj_Unloader	moc_snakeWidget.cpp	/^static class snakeWidget_metaObj_Unloader {$/;"	c	file:
+snakeWidget_metaObj_unloader	moc_snakeWidget.cpp	/^} snakeWidget_metaObj_unloader;$/;"	v	typeref:class:snakeWidget_metaObj_Unloader	file:
+staticMetaObject	moc_snakeWidget.cpp	/^QMetaObject* snakeWidget::staticMetaObject()$/;"	f	class:snakeWidget
+timer	snakeWidget.h	/^		QTimer *timer;\/\/定时器，产生固定帧速$/;"	m	class:snakeWidget
+tr	moc_snakeWidget.cpp	/^QString snakeWidget::tr(const char* s)$/;"	f	class:snakeWidget
+tr	moc_snakeWidget.cpp	/^QString snakeWidget::tr(const char* s, const char * c)$/;"	f	class:snakeWidget
+trail	snake.h	/^		coordinate head,trail;\/\/头、尾的坐标值$/;"	m	class:snake
+updateFrame	snakeWidget.cpp	/^void snakeWidget::updateFrame(int num)$/;"	f	class:snakeWidget
+width_map	snake.h	/^		int width_map,height_map;\/\/点阵的长宽数$/;"	m	class:snake
+width_map	snakeWidget.h	/^		int width_map;\/\/游戏点阵长$/;"	m	class:snakeWidget
+x	snake.h	/^	int x;$/;"	m	struct:coordinate
+y	snake.h	/^	int y;$/;"	m	struct:coordinate
+~snake	snake.cpp	/^snake::~snake()$/;"	f	class:snake
+~snakeWidget	snakeWidget.cpp	/^snakeWidget::~snakeWidget()$/;"	f	class:snakeWidget
+~snakeWidget_metaObj_Unloader	moc_snakeWidget.cpp	/^    ~snakeWidget_metaObj_Unloader()$/;"	f	class:snakeWidget_metaObj_Unloader

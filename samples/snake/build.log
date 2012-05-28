@@ -1,0 +1,7 @@
+arm-linux-gnueabi-g++ -c -pipe -DQWS -fno-exceptions -fno-rtti -Wall -W -O3 -DNO_DEBUG -I/home/fuzhuo/mypro/moto_ezx/zn5_e8_ezx_sdk/zn5_ezx_sdk/include -I/home/fuzhuo/mypro/moto_ezx/zn5_e8_ezx_sdk/zn5_ezx_sdk/extern3rd/include -o main.o main.cpp
+snakeWidget.h:13:19: QWidget: No such file or directory
+snakeWidget.h:14:20: QPainter: No such file or directory
+snakeWidget.h:15:19: QPixmap: No such file or directory
+snakeWidget.h:16:18: QLabel: No such file or directory
+snakeWidget.h:17:18: QTimer: No such file or directory
+snakeWidget.h:18:21: QKeyEvent: No such file or directory
